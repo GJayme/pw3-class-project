@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+#area {
+    position: relative;
+    left: 37%;
+    top: 10em;
+    width: 320px;
+    height: 270px;
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+}
+
+fieldset {
+    background: #A7C0DC;
+    width: 400px;
+    height: 250px;
+}
+
+legend {
+    font-weight: bold;
+    font-family: "Sogoe UI", "Arial", "Verdana", serif;
+}
+
+#formulario #label {
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+
+#fomulario input.nome {
+    background-color: #F1FF00;
+    position: absolute;
+    left: 95px;
+    top: 30px;
+    width: 225px;
+}
+
+#fomulario input.email {
+    background-color: #F1FF00;
+    position: absolute;
+    left: 95px;
+    margin-top: 30px;
+    width: 225px;
+}
+
+#formulario input.submit {
+    border-style: dashed;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 10px;
+    background-color: #F1FF00;
+}
