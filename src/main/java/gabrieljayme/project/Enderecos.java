@@ -1,8 +1,15 @@
 package gabrieljayme.project;
 
 public class Enderecos {
+    private int id;
     private String nome;
     private String email;
+
+    public Enderecos(int id, String nome, String email) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+    }
 
     public Enderecos(String nome, String email) {
         this.nome = nome;
@@ -25,9 +32,20 @@ public class Enderecos {
         this.email = email;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
-        return  "nome='" + nome +
-                ", email='" + email;
+        return "Enderecos{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
